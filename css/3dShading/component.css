@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playball|Shadows+Into+Light+Two');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 body {
-    background-color: #EDE5E2;
+    background-color: #fff;
 	color: #fff;
+    font-family: 'Nanum Pen Script', serif;
+    font-size: 20px;
 }
 
 .wrapper {
@@ -13,6 +17,12 @@ body {
 	padding: 0;
 }
 
+.slide_title {
+    font-family: 'Nanum Pen Script', serif;
+}
+.slide_title2 {
+    font-family: 'Nanum Pen Script', serif;
+}
 /*************************************
 Build the scene and rotate on hover
 **************************************/
@@ -175,22 +185,21 @@ Posters and still images (first)
 .poster span {
 	display: block;
 	font-weight: 400;
-	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 13px;
+	font-size: 1.3em;
 	padding: 5px;
 }
 .scene.first:nth-child(1) .movie .poster {
-  background-color: #009ac8;
+  background-color: #42282F;
 
 }
 
 .scene.first:nth-child(2) .poster {
-  background-image: url(../../imgs/front_end.png);
+  background-color: #42282F;
 }
 
 .scene.first:nth-child(3) .poster {
-  background-image: url(../../imgs/data_an.png);
+  background-color: #74A588;
 }
 
 .scene.first:nth-child(1) .info header {
@@ -210,15 +219,15 @@ Posters and still images (second)
 **************************************/
 
 .scene.second:nth-child(1) .movie .poster {
-  background-image: url(../../imgs/db_en.png);
+  background-color: #D6655A;
 }
 
 .scene.second:nth-child(2) .poster {
-  background-image: url(../../imgs/data_an.png);
+  background-color: #74A588;
 }
 
 .scene.second:nth-child(3) .poster {
-  background-color: #009ac8;
+  background-color: #DC9C76;
 }
 
 .scene.second:nth-child(1) .info header {
@@ -238,15 +247,15 @@ Posters and still images (third)
 **************************************/
 
 .scene.third:nth-child(1) .movie .poster {
-  background-color: #348932;
+  background-color: #42282F;
 }
 
 .scene.third:nth-child(2) .poster {
-  background-color: #983499;
+  background-color: #42282F;
 }
 
 .scene.third:nth-child(3) .poster {
-  background-color: #583489;
+  background-color: #D6CCAD;
 }
 
 .scene.third:nth-child(1) .info header {
@@ -270,11 +279,11 @@ Posters and still images (fourth)
 }
 
 .scene.fourth:nth-child(2) .poster {
-  background-color: #ef4344;
+  background-color: #865754;
 }
 
 .scene.fourth:nth-child(3) .poster {
-  background-color: #575679;
+  background-color: #DC9C76;
 }
 
 .scene.fourth:nth-child(1) .info header {
