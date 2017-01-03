@@ -1,0 +1,38 @@
+.nav {
+    ul {
+        min-width: 1240px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1.5em;
+        font-weight: 300;
+
+        li {
+            a {
+                display: block;
+                color: #009ac8;
+                text-decoration: none;
+                -webkit-transition: color .5s, background .5s, height .5s;
+                transition: color .5s, background .5s, height .5s;
+                span {
+                    display: block;
+                }
+            }
+            &nth-child(6n+1) {
+                background-color: rgb(208, 101, 3);
+            }
+        }
+    }
+}
+
+@media (min-width: 50em) {
+    .nav {
+        li {
+            float: left;
+            width: 16.666666666%;
+            text-align: center;
+            -webkit-transition: border .5s;
+            transition: border .5s;
+        }
+    }
+}
