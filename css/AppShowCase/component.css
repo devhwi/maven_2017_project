@@ -25,7 +25,6 @@
 }
 
 .ac-device {
-	background: url(../../imgs/iPhone.png) no-repeat;
 	width: 288px;
 	height: 611px;
 	margin: 0 auto;
@@ -215,7 +214,8 @@
 	.ac-wrapper h2 {
 		width: 100%;
 		text-align: center;
-		margin: 0 0 1em;
+		margin: 0 0 10px 0;
+		font-size: 2.5em;
 		top: 0;
 		left: auto;
 		position: relative;
@@ -223,15 +223,22 @@
 
 	.ac-device {
 		margin: 0 auto;
-		width: 288px;
+		width: 189px;
+		height: 400px;
 	}
-
+	.ac-device a {
+		margin: 56px 0 0 14px;
+	}
+	.ac-device img{
+		width: 163px;
+	}
 	.ac-device h3 {
 		position: relative;
+		font-size: 1.7em;
 		margin: 0;
 		left: auto;
 		width: 100%;
-		top: 100px;
+		top: -70px;
 		display: block;
 		text-align: center;
 	}
