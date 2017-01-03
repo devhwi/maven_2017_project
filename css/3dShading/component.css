@@ -1,8 +1,5 @@
-*, *:after, *:before { box-sizing: border-box; }
-
 body {
-	background: #fbc73b;
-	font-family: 'Lato', Arial, sans-serif;
+    background-color: #EDE5E2;
 	color: #fff;
 }
 
@@ -161,33 +158,136 @@ Generate "lighting" using box shadows
 }
 
 /*************************************
-Posters and still images
+Posters and still images (first)
+**************************************/
+.poster {
+    text-align: center;
+}
+.poster h3 {
+	font-family: "Ruthie", cursive;
+	font-size: 180px;
+	line-height: 300px;
+	margin: 0;
+	font-weight: 400;
+	width: 100%;
+}
+
+.poster span {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 5px;
+}
+.scene.first:nth-child(1) .movie .poster {
+  background-color: #009ac8;
+
+}
+
+.scene.first:nth-child(2) .poster {
+  background-image: url(../../imgs/front_end.png);
+}
+
+.scene.first:nth-child(3) .poster {
+  background-image: url(../../imgs/data_an.png);
+}
+
+.scene.first:nth-child(1) .info header {
+	background-image: url(../../imgs/still01.jpeg);
+}
+
+.scene.first:nth-child(2) .info header {
+	background-image: url(../../imgs/still02.jpeg);
+}
+
+.scene.first:nth-child(3) .info header {
+	background-image: url(../../imgs/still03.jpeg);
+}
+
+/*************************************
+Posters and still images (second)
 **************************************/
 
-.scene:nth-child(1) .movie .poster {
-  background-image: url(../../imgs/poster01.jpg);
+.scene.second:nth-child(1) .movie .poster {
+  background-image: url(../../imgs/db_en.png);
 }
 
-.scene:nth-child(2) .poster {
-  background-image: url(../../imgs/poster02.jpg);
+.scene.second:nth-child(2) .poster {
+  background-image: url(../../imgs/data_an.png);
 }
 
-.scene:nth-child(3) .poster {
-  background-image: url(../../imgs/poster03.jpg);
+.scene.second:nth-child(3) .poster {
+  background-color: #009ac8;
 }
 
-.scene:nth-child(1) .info header {
-	background-image: url(../../imgs/still01.jpg);
+.scene.second:nth-child(1) .info header {
+	background-image: url(../../imgs/moonsuyeon.jpeg);
 }
 
-.scene:nth-child(2) .info header {
-	background-image: url(../../imgs/still02.jpg);
+.scene.second:nth-child(2) .info header {
+	background-image: url(../../imgs/choyonghwan.png);
 }
 
-.scene:nth-child(3) .info header {
-	background-image: url(../../imgs/still03.jpg);
+.scene.second:nth-child(3) .info header {
+	background-image: url(../../imgs/woojongmin.jpeg);
 }
 
+/*************************************
+Posters and still images (third)
+**************************************/
+
+.scene.third:nth-child(1) .movie .poster {
+  background-color: #348932;
+}
+
+.scene.third:nth-child(2) .poster {
+  background-color: #983499;
+}
+
+.scene.third:nth-child(3) .poster {
+  background-color: #583489;
+}
+
+.scene.third:nth-child(1) .info header {
+	background-image: url(../../imgs/parkseongmin.jpeg);
+}
+
+.scene.third:nth-child(2) .info header {
+	background-image: url(../../imgs/leejeongwoong.jpeg);
+}
+
+.scene.third:nth-child(3) .info header {
+	background-image: url(../../imgs/kimkyungtae.jpeg);
+}
+
+/*************************************
+Posters and still images (fourth)
+**************************************/
+
+.scene.fourth:nth-child(1) .movie .poster {
+  background-color: #865754;
+}
+
+.scene.fourth:nth-child(2) .poster {
+  background-color: #ef4344;
+}
+
+.scene.fourth:nth-child(3) .poster {
+  background-color: #575679;
+}
+
+.scene.fourth:nth-child(1) .info header {
+	background-image: url(../../imgs/kimjinseok.jpeg);
+}
+
+.scene.fourth:nth-child(2) .info header {
+	background-image: url(../../imgs/kimjinyoung.jpeg);
+}
+
+.scene.fourth:nth-child(3) .info header {
+	background-image: url(../../imgs/seojeongeun.jpeg);
+}
 /*************************************
 Fallback
 **************************************/
