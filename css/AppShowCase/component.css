@@ -48,7 +48,7 @@
 
 .ac-device h3 {
 	position: absolute;
-	font-size: 2.9em;
+	font-size: 1.8em;
 	left: 100%;
 	width: 100%;
 	top: 60%;
@@ -71,6 +71,7 @@
 }
 
 .ac-grid a {
+	font-size: 25px;
 	width: 220px;
 	display: inline-block;
 	position: relative;
@@ -197,7 +198,7 @@
 		width: 90%;
 		left: 5%;
 		margin-left: 0;
-		padding-top: 8em;
+		padding-top: 10px;
 	}
 
 	.ac-grid a {
